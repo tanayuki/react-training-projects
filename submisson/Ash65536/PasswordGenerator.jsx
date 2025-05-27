@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const UPPERCASE = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const LOWERCASE = 'abcdefghijklmnopqrstuvwxyz';
 const NUMBERS = '0123456789';
-const SYMBOLS = '!@#$%^&*()-_=+[]{};:,.<>?';
+const SYMBOLS = '!@#$%^&*()-=+[]{};:,.<>?';
 
 export default function PasswordGenerator() {
   const [length, setLength] = useState(12);
